@@ -60,16 +60,16 @@ a {
     margin: 30px auto;
 }
 
-.book-info {
+.info {
     color: #676767;
     text-align: center;
 }
 
-.book-info h3 {
+.info h3 {
     margin: 0;
 }
 
-.book-info .large {
+.info .large {
     color: #000;
     text-align: left;
 }
@@ -78,6 +78,12 @@ a {
     font-size: 20px;
     margin-bottom: 0;
     text-transform: uppercase;
+}
+
+.byline {
+    color: #000;
+    font-size: 20px;
+    margin-top: -10px;
 }
 
 .btn.btn-default {
@@ -151,6 +157,10 @@ a {
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 35px;
+}
+
+.secondary .info {
+    margin-bottom: 50px;
 }
 
 .bestseller-wrap {
@@ -245,19 +255,38 @@ a {
     }
 
     .navbar {
+        background: url('../img/fade_horizontal_large.png') repeat-x;
         margin-bottom: 70px;
     }
 
+    .navbar-brand {
+        background: #4d4e4e;
+        height: 150px;
+        padding: 47px 60px 47px;
+    }
+
+    #logo {
+        background: url('../img/logo.png') no-repeat;
+        background-size: contain;
+        display: block;
+        height: 56px;
+        width: 33px;
+    }
+
+    .navbar-nav > li {
+        margin-left: 24px;
+    }
+
     .navbar-nav > li > a {
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 65px;
+        padding-bottom: 65px;
     }
 
     .img-align-wrap {
         text-align: left;
     }
 
-    .book-info {
+    .info {
         text-align: left;
     }
 
@@ -267,6 +296,13 @@ a {
         width: 25%;
     }
 
+}
+
+@media (min-width: 878px) {
+
+    .navbar-nav > li {
+        margin-left: 46px;
+    }
 }
 
 @media (min-width: 992px) {
