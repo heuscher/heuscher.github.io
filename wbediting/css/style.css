@@ -1,0 +1,277 @@
+/* Color Codes
+   ========================================================================== */
+/*  drkGray     #676767
+    gray        #aeaeae
+    lgtGray
+*/
+
+html, body {
+    color: #000;
+}
+
+body {
+    background: url('../img/exclusive_paper.png');
+}
+
+/* Typography & Common
+   ========================================================================== */
+
+hr {
+    background: url('../img/rule.png') repeat-x;
+    border: 0;
+    height: 1px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.large {
+    font-size: 30px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+h3 {
+    color: #676767;
+    font-size: 36px;
+    margin-top: 1.15em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    transition: all 0.2s;
+}
+
+.page-title,
+.section-title {
+    color: #676767;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 2px #FFF;
+    text-transform: uppercase;
+}
+
+.page-title + hr {
+    margin: 30px auto;
+}
+
+.book-info {
+    color: #676767;
+    text-align: center;
+}
+
+.book-info h3 {
+    margin: 0;
+}
+
+.book-info .large {
+    color: #000;
+    text-align: left;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.btn.btn-default {
+    background: rgba(0,0,0,.15);
+    border: 0;
+    border-radius: 50px;
+    color: #4d4e4e;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn.btn-default:hover {
+    background: rgba(0,0,0,.25);
+}
+
+.portrait {
+    border-radius: 400px;
+    margin-bottom: 20px;
+}
+
+.img-align-wrap {
+    text-align: center;
+}
+
+/* Header & Navigation
+   ========================================================================== */
+
+.navbar {
+    background: url('../img/fade_horizontal.png') repeat-x;
+    border: 0;
+    border-bottom: 1px solid #aeaeae;
+    margin-bottom: 35px;
+    min-height: 70px;
+}
+
+.navbar-brand {
+    background: #4d4e4e;
+    height: 70px;
+    padding: 17px 21px 16px;
+}
+
+#logo {
+    background: url('../img/logo.png') no-repeat;
+    background-size: contain;
+    display: block;
+    height: 37px;
+    width: 22px;
+}
+
+.navbar-default .navbar-toggle {
+    background: none !important;
+    border: 0;
+    border-radius: 0;
+    margin: 19px 10px 19px 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #4d4e4e;
+    width: 27px;
+}
+
+/* Content
+   ========================================================================== */
+
+.secondary {
+    background: url('../img/fade_vertical.png') repeat-y;
+    background-size: contain;
+    border-bottom: 1px solid #cccbcb;
+    border-top: 1px solid #cccbcb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.bestseller-wrap {
+    display: inline-block;
+    margin-bottom: 50px;
+    position: relative;
+    width: 240px;
+}
+
+.bestseller-wrap .bestseller {
+    left: -50px;
+    bottom: -50px;
+    position: absolute;
+}
+
+.list-books {
+    list-style: none;
+    padding: 0;
+}
+
+.list-books li {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.list-books p {
+    font-size: 18px;
+    margin: 15px 0 35px;
+}
+
+#site-footer {
+    background: rgba(103,103,103,.45);
+    border-top: 1px solid #aeaeae;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.secondary + #site-footer {
+    margin-top: -20px;
+}
+
+#linkedin {
+    color: #676767;
+    text-decoration: none !important;
+}
+
+#linkedin span {
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+#linkedin .icon {
+    background: url('../img/icon_linkedin.png') no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 30px;
+    margin-left: 5px;
+    width: 30px;
+}
+
+#copyright {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+/* Media Queries
+   ========================================================================== */
+
+@media (min-width: 600px) {
+    .list-books li {
+        width: 33%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 880px;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    hr {
+        max-width: 620px;
+    }
+
+    .page-title + hr {
+        margin: 48px auto;
+    }
+
+    .navbar {
+        margin-bottom: 70px;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .img-align-wrap {
+        text-align: left;
+    }
+
+    .book-info {
+        text-align: left;
+    }
+
+    .list-books li {
+        float: left;
+        text-align: center;
+        width: 25%;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .list-books li {
+        width: 20%;
+    }
+}
+
