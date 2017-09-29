@@ -34,7 +34,27 @@
     <div class="col-xs-12 text-center">
       <h2 class="section-title">Testimonials</h2>
       <hr>
-      <button class="btn btn-default">More Testimonials</button>
+      <ul class="list-raves">
+        <li>
+          <div class="info">
+            <p class="large">"I thought your approach was spot-on, and if I'm fortunate enough to do more of these, I'll be sure to bring you on board much earlier in the process."</p>
+            <p class="byline">-Jay Busbee</p>
+            <h3>Earnhardt Nation</h3>
+            <p class="subtitle">The Full-Throttle Saga of NASCAR's First Family</p>
+            <p class="small">Ballantine Books, Penguin Random House LLC – June 9, 2015</p>
+          </div>
+        </li>
+        <li>
+          <div class="info">
+            <p class="large">"I’m liking Will’s input – clean and tight – the sort of air-brushing this manuscript needs"</p>
+            <p class="byline">-John LeFevre</p>
+            <h3>Straight to Hell</h3>
+            <p class="subtitle">True Tales of Deviance, Debauchery, and Billion-Dollar Deals</p>
+            <p class="small">Grove/Atlantic Inc. – July 14, 2015</p>
+          </div>
+        </li>
+      </ul>
+      <a href="/testimonials.php" class="btn btn-default">More Testimonials</a>
     </div>
   </div>
 </div>
