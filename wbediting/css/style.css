@@ -176,20 +176,26 @@ a {
     position: absolute;
 }
 
-.list-books {
+.list-books,
+.list-raves {
     list-style: none;
     padding: 0;
 }
 
 .list-books li {
     float: left;
+    margin-bottom: 35px;
     text-align: center;
     width: 50%;
 }
 
-.list-books p {
+.book-info h3 {
+  margin-top: 0;
+}
+
+.list-books .author {
     font-size: 18px;
-    margin: 15px 0 35px;
+    margin: 10px 0;
 }
 
 #site-footer {
