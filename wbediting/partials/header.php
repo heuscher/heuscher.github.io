@@ -36,11 +36,11 @@
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li><a href="about.html">About</a></li>
-              <li><a href="services-rates.html">Service & Rates</a></li>
-              <li><a href="booklist.html">Booklist</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="services-rates.php">Service & Rates</a></li>
+              <li><a href="booklist.php">Booklist</a></li>
+              <li><a href="testimonials.php">Testimonials</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
           </div>
         </div>
